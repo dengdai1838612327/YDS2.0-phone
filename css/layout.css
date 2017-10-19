@@ -1,0 +1,319 @@
+﻿@charset "utf-8";
+/*支付成功*/
+.success-img {
+	margin: 55px auto 10px;
+	width: 65px;
+	height: 65px;
+}
+.success-text {
+	margin-bottom: 20px;
+}
+.success-text p {
+	text-align: center;
+	color: #333;
+}
+.success-text .f20 {
+	font-size: 20px;
+	margin-bottom: 10px;
+}
+.success-text .f14 {
+	font-size: 14px;
+}
+.success-btn {
+	text-align: center;
+}
+.success-btn input {
+	width: 135px;
+	height: 30px;
+	border-radius: 5px;
+	border: none;
+	color: #fff;
+	font-size: 15px;
+	padding: 0;
+	margin: 0 10px;
+}
+.success-btn input.red {
+	background-color: #E60012;
+}
+.success-btn input.orange {
+	background-color: #f60;
+}
+/*话费、流量充值*/
+.type-sel{
+	width: 100%;
+	height: 85px;
+	border-bottom: 1px solid #ddd;
+	padding: 0 15px;
+	overflow: hidden;
+}
+.type-sel .type-item{
+	float: left;
+	width: 80px;
+	color: #999;
+	font-size: 14px;
+	text-align: center;
+	margin-top: 10px;
+}
+.type-sel .type-item.on{
+	color: #e60012;
+}
+.type-sel .type-item .tel{
+	width: 40px;
+	height: 42px;
+	background-position: left top;
+}
+.type-sel .type-item .flow{
+	width: 40px;
+	height: 42px;
+	background-position: left -45px;
+}
+.type-sel .type-item.on .tel{
+	background-position: -40px top;
+}
+.type-sel .type-item.on .flow{
+	background-position: -40px -45px;
+}
+.type-sel .type-item span{
+	display: block;
+}
+.gray-line{
+	width: 100%;
+	height: 10px;
+	background-color: #f5f5f5;
+}
+.block{
+	padding: 5px 10px;
+	border-bottom: 1px solid #ddd;
+	font-size: 14px;
+	overflow: hidden;
+}
+.block:last-child{
+	border-bottom: none;
+}
+.block label{
+	width: 20%;
+	line-height: 30px;
+	float: left;
+}
+.block .block-r{
+	float: left;
+	width: 80%;
+	padding-left: 10px;
+}
+.block.pt5{
+	margin-top: 5px;
+}
+.block .block-r .num{
+	width: 70%;
+	height: 30px;
+	color: #666;
+}
+.block .block-r .yys{
+	float: right;
+	font-size: 12px;
+	line-height: 30px;
+}
+.chongzhi-num{
+	overflow: hidden;
+}
+.chongzhi-num li{
+	float: left;
+	width: 30%;
+	height: 30px;
+	line-height: 28px;
+	margin: 0 3% 10px 0;
+	text-align: center;
+	border: 1px solid #ccc;
+}
+.chongzhi-num li.on{
+	color: #e60012;
+	border: 1px solid #e60012;
+}
+.block .block-r .price{
+	color: #e60012;
+	font-size: 18px;
+	line-height: 30px;
+}
+.block label.lh60{
+	line-height: 60px;
+}
+.pay-method{
+	overflow: hidden;
+	margin-top: 10px;
+}
+.pay-method li{
+	float: left;
+	width: 45%;
+	height: 40px;
+	line-height: 15px;
+	padding: 5px 0;
+	margin: 0 5% 10px 0;
+	text-align: center;
+	font-size: 13px;
+	border: 1px solid #ccc;
+}
+.pay-method li.on{
+	color: #e60012;
+	border: 1px solid #e60012;
+}
+.pay-method li span{
+	display: block;
+}
+.block .chongzhi-btn{
+	width: 220px;
+	height: 40px;
+	border: none;
+	border-radius: 5px;
+	color: #fff;
+	background-color: #e60012;
+	font-size: 16px;
+	display: block;
+	margin: 20px auto;
+}
+.block .tips .con{
+	color: #999;
+	font-size: 12px;
+}
+.order-list li{
+	border-bottom: 1px solid #ddd;
+}
+.order-list li .tel{
+	float: left;
+	margin-top: 4px;
+	width: 40px;
+	height: 42px;
+	background-position: left top;
+}
+.order-list li .flow{
+	float: left;
+	margin-top: 4px;
+	width: 40px;
+	height: 42px;
+	background-position: left -45px;
+}
+.order-list li .top{
+	padding: 10px;
+	overflow: hidden;
+}
+.list-m{
+	float: left;
+	padding-left: 10px;
+}
+.list-m .m-top{
+	margin-bottom: 10px;
+	font-size: 14px;
+}
+.list-m .m-mid{
+	font-size: 13px;
+	color: #666;
+}
+.order-list li .top .price{
+	color: #e60012;
+	font-size: 18px;
+	float: right;
+	line-height: 50px;
+}
+.gray-line.btm{
+	height: 35px;
+	overflow: hidden;
+}
+.btm .btn-group{
+	float: right;
+	margin: 5px 10px;
+}
+.btm input{
+	width: 75px;
+	height: 25px;
+	border-radius: 5px;
+}
+.btm input.gray{
+	border: 1px solid #666;
+	color: #666;
+	background-color: #fff;
+}
+.btm input.red{
+	border: 1px solid #e60012;
+	background-color: #e60012;
+	color: #fff;
+}
+.btm span{
+	float: right;
+	color: #666;
+	font-size: 14px;
+	margin-right: 10px;
+	line-height: 35px;
+}
+.order-tips{
+	text-align: center;
+	color: #666;
+	line-height: 30px;
+}
+.detail-tit{
+	height: 70px;
+	width: 100%;
+	border-bottom: 1px solid #ddd;
+	padding: 0 3%;
+	font-size: 14px;
+	overflow: hidden;
+}
+.detail-tit .icon{
+	width: 15%;
+	float: left;
+	margin-top: 15px;
+}
+.detail-tit .icon .tel{
+	width: 40px;
+	height: 42px;
+	background-position: left top;
+}
+.detail-tit .tit-num{
+	float: left;
+	width: 65%;
+	margin-top: 35px;
+}
+.detail-tit .tit-num label{
+	float: left;
+	width: 60px;
+	margin-right: 10px;
+}
+.detail-tit .status{
+	float: right;
+	width: 20%;
+	color: #f60;
+	margin-top: 35px;
+	text-align: right;
+}
+.detail-con{
+	background-color: #f5f5f5;
+	padding: 10px 3% 10px 18%;
+	font-size: 14px;
+	border-bottom: 1px solid #ddd;
+}
+.detail-con p{
+	margin: 8px 0;
+}
+.detail-con p label{
+	float: left;
+	width: 60px;
+	margin-right: 10px;
+}
+.detail-btn{
+	text-align: center;
+	margin-top: 20px;
+}
+.detail-btn input{
+	width: 75px;
+	height: 25px;
+	border-radius: 5px;
+	margin: 0 10px;
+}
+.detail-btn input.gray{
+	border: 1px solid #666;
+	color: #666;
+	background-color: #fff;
+}
+.detail-btn input.red{
+	border: 1px solid #e60012;
+	background-color: #e60012;
+	color: #fff;
+}
