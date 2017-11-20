@@ -266,6 +266,11 @@
 	height: 42px;
 	background-position: left top;
 }
+.detail-tit .icon .flow{
+	width: 40px;
+  height: 42px;
+  background-position: left -45px;
+}
 .detail-tit .tit-num{
 	float: left;
 	width: 65%;
