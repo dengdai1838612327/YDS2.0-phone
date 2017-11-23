@@ -170,6 +170,9 @@
 	display: block;
 	margin: 20px auto;
 }
+.block .chongzhi-btn.gray{
+	background-color: #999;
+}
 .block .tips .con{
 	color: #999;
 	font-size: 12px;
